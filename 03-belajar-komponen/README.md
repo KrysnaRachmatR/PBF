@@ -38,3 +38,18 @@ jawab :
 ```
 Dalam kode yang diperbaiki, URL gambar dibuat secara dinamis menggunakan properti imageId dan imageSize dari objek person, dan kemudian digunakan dalam elemen <img>. Sekarang kode tersebut sudah benar dan akan menggunakan URL gambar yang sesuai dengan data dari objek person.
 ```
+
+## **Soal 6. Perbaiki kode tersebut pada bagian atribut src. Kode lainnya dapat Anda sesuaikan dari jawaban soal sebelumnya. Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?**
+Jawab : 
+Sebelum diperbaiki
+![alt text](doc/6.png)
+Setelah Diperbaiki
+![alt text](doc/6-1.png)
+```
+Dengan menggunakan tanda kutip kembali () dan mengapit seluruh ekspresi dengan tanda kurung kurawal, memastikan bahwa tag tersebut dievaluasi sebagai bagian dari string yang sesuai untuk atribut src`. Dengan demikian, URL gambar akan dihasilkan dengan benar saat komponen diproses.
+<img
+  className="avatar"
+  src={`${baseUrl}${person.imageId}${person.imageSize}.jpg`}
+  alt={person.name}
+/>
+```
