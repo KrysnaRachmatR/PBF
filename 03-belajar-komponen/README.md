@@ -23,11 +23,18 @@ jawab :
 ```
 karena aturan untuk kode jsx tersebut ialah menggunakan "className" bukan menggunakan class dan kode tersebut harus dibungkus dengan <div> <main> 
 ```
-##**Soal 4. Kode di atas masih terdapat error, silakan diperbaiki.**
+## **Soal 4. Kode di atas masih terdapat error, silakan diperbaiki.**
 jawab : 
 ![alt text](doc/4.png)
 ```
 untuk kode yang error yang sebelumnya adalah menambahkan import react from 'react'
 mengubah {person} menjadi {person.name} untuk menampilkan nama orang bukan tema
 mengubah src gambar menjadi 'https://i.imgur.com/7vQD0fP.jpg' karena link gambar salah
+```
+
+## **Soal 5. Buka file src/components/todolist.tsx lakukan ekstrak URL gambar ke dalam objek person. Capture hasilnya dan buatlah laporan di README.md. Apakah ada perbedaan pada tampilan web saat ini?**
+jawab :
+![alt text](doc/5-1.png)
+```
+Dalam kode yang diperbaiki, URL gambar dibuat secara dinamis menggunakan properti imageId dan imageSize dari objek person, dan kemudian digunakan dalam elemen <img>. Sekarang kode tersebut sudah benar dan akan menggunakan URL gambar yang sesuai dengan data dari objek person.
 ```
