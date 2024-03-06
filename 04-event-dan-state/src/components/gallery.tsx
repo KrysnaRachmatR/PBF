@@ -19,7 +19,7 @@ return(
     >Artikel Selanjutnya </button>
     <h2><i>{sculpture.name}</i>oleh{sculpture.artist}</h2>
     <h3>({index + 1}dari {sculptureList.length})</h3>
-    <img src="{sculpture.url}" alt="{sculpture.alt}" />
+    <img src={sculpture.url} alt={sculpture.alt} />
     <p>
         {sculpture.description}
     </p>
