@@ -1,10 +1,10 @@
-import Heading from "../atoms/heading";
-import Section from "../atoms/section";
+import Heading from "@/components/atoms/heading";
+import Section from "@/components/atoms/section";
 
 export default function MainPage() {
     return (
         <Section>
-            <Heading>Judul</Heading>
+            <Heading>Title</Heading>
             <Section>
                 <Heading>Heading</Heading>
                 <Heading>Heading</Heading>

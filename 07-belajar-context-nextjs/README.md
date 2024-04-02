@@ -6,5 +6,9 @@ Jangan lupa push dengan pesan commit: "W07: Jawaban soal 1".
 
 2. 
 
+![alt text](Praktikum2.png)
 
-3. ![alt text](Praktikum3.png)
+3. 
+![alt text](Praktikum3.png)
+
+
