@@ -1,10 +1,10 @@
 import { LevelContext } from "@/utilities/context/mycontext";
 
-export default function Section({ level, children }: {level: number, children: any }) {
+export default function Section({ level, children }: { level: number, children: any }) {
     return (
-        <section className="section">
+        <section className={`section`}>
             <LevelContext.Provider value={level}>
-            {children}
+                {children}
             </LevelContext.Provider>
         </section>
     );

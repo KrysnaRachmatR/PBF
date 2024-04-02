@@ -1,5 +1,7 @@
-import MainPage from "../components/templates/main_page";
+'use client';
 
-export default function Home(){
-  return < MainPage />;
+import MainPage from "@/components/templates/main_page";
+
+export default function Home() {
+    return <MainPage />;
 }

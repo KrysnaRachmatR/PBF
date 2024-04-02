@@ -4,3 +4,7 @@ Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda 
 Jangan lupa push dengan pesan commit: "W07: Jawaban soal 1".
 ![alt text](Praktikum1.png)
 
+2. 
+
+
+3. ![alt text](Praktikum3.png)
