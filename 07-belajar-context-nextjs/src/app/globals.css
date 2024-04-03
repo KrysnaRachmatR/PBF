@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -30,4 +30,13 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+
+section{
+  border-color: black;
+  border-width: 2px;
+  padding-left: 15px;
+  margin: 3px;
+  border-style: dashed;
 }

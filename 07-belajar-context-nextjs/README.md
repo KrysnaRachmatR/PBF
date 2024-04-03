@@ -11,4 +11,7 @@ Jangan lupa push dengan pesan commit: "W07: Jawaban soal 1".
 3. 
 ![alt text](Praktikum3.png)
 
+4. 
+![alt text](Praktikum4.png)
+
 
