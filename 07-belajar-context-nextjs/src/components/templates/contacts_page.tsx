@@ -3,7 +3,7 @@ import Section2 from "../atoms/section2";
 import Post from "../atoms/post";
 import AllPosts from "../organisms/allpost";
 
-export default function ProfilePage(){
+export default function ContactPage(){
     return(
         <Section2 isFancy={true}>
             <Heading>Profile Saya</Heading>
